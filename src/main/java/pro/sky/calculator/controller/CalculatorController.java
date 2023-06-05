@@ -48,7 +48,7 @@ public class CalculatorController {
             return "Не передан один из параметров";
         }
         if ("/".equals(operation) && b == 0) {
-            return "На ноль делить нельзя!";
+            return "На ноль делить нельзя!!!";
         }
         return a + " " + operation + " " + b + " = " + result;
 
